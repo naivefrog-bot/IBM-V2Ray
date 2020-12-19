@@ -149,8 +149,3 @@ jobs:
 
     - name: Deploy Cloud Foundry App
       run: cf push
-on:
-  workflow_dispatch:
-  repository_dispatch:
-#  schedule:
-#    - cron: 0 21 * * 5
